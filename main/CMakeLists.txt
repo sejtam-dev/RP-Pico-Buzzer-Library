@@ -25,7 +25,7 @@ set(MAIN_LIBRARIES)
 
 list(APPEND MAIN_LIBRARIES pico_stdlib)
 
-#list(APPEND MAIN_LIBRARIES hardware_pwm)
+list(APPEND MAIN_LIBRARIES hardware_pwm)
 #list(APPEND MAIN_LIBRARIES hardware_flash)
 #list(APPEND MAIN_LIBRARIES hardware_sync)
 

@@ -25,9 +25,12 @@ set(TEST_LIBRARIES)
 
 list(APPEND TEST_LIBRARIES pico_stdlib)
 
-#list(APPEND TEST_LIBRARIES hardware_pwm)
+list(APPEND TEST_LIBRARIES hardware_pwm)
 #list(APPEND TEST_LIBRARIES hardware_flash)
 #list(APPEND TEST_LIBRARIES hardware_sync)
+
+list(APPEND TEST_LIBRARIES Buzzer_MAIN)
+list(APPEND TEST_INCLUDE_DIRS ${ROOT_DIR}/main/include)
 
 # Create Executable File
 include_directories(${TEST_INCLUDES_DIR})
